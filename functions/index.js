@@ -64,7 +64,7 @@ exports.getInventory = onRequest({maxInstances: 10}, async (req, res) => {
 
 exports.deleteInventory = onRequest({maxInstances: 10}, async (req, res) => {
   try {
-    // Assuming you receive data in the request body
+    // Receive data in the request body
     const {id} = req.body;
 
     // Validate that the required field (ID) is present
@@ -98,7 +98,7 @@ exports.deleteInventory = onRequest({maxInstances: 10}, async (req, res) => {
 
 exports.updateInventory = onRequest({maxInstances: 10}, async (req, res) => {
   try {
-    // Assuming you receive data in the request body
+    // Receive data in the request body
     const {id, name, brand, quantity, price} = req.body;
 
     // Validate that required fields are present
