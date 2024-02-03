@@ -35,7 +35,7 @@ This project utilizes Firebase Cloud Functions to offer convenient HTTP-triggere
     "id": "yourItemId"
   }
 
-  ## Update Inventory
+## Update Inventory
 
 - **Function URL:(https://updateinventory-mzgijoedqq-uc.a.run.app)
 - **HTTP Method:** POST
@@ -50,7 +50,7 @@ This project utilizes Firebase Cloud Functions to offer convenient HTTP-triggere
   }
 
 
-  # References
+# References
 
 - AI language models were utilized to optimize the retrieval of data using params in the `get` function.
 - Youtube tutorials were referred to during the setup of the Firebase project.
