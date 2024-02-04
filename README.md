@@ -49,7 +49,7 @@ This project utilizes Firebase Cloud Functions to offer convenient HTTP-triggere
     "price": 25
   }
 
-##Notes
+## Notes
 
 - For every URL used except for the get URL, please use Content-Type as the Key for the Headers and application/json for the value.
 
