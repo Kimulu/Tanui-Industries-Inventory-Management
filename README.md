@@ -54,6 +54,7 @@ This project utilizes Firebase Cloud Functions to offer convenient HTTP-triggere
 - For every URL used except for the get URL, please use Content-Type as the Key for the Headers and application/json for the value.
 
 
+
 # References
 
 - AI language models were utilized to optimize the retrieval of data using params in the `get` function.
